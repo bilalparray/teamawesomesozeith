@@ -109,7 +109,7 @@ let showket = {
 document.getElementById('player9image').src=         showket.image;
 document.getElementById('player9name').innerHTML =   showket.name;
 document.getElementById('player9role').innerHTML =   showket.role;
-document.getElementById('player9button').href =      showket.profilezahid;
+document.getElementById('player9button').href =      showket.profile;
 
 //zahid startshere
 let zahid = {
