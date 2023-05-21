@@ -109,7 +109,7 @@ let showket = {
 document.getElementById('player9image').src=         showket.image;
 document.getElementById('player9name').innerHTML =   showket.name;
 document.getElementById('player9role').innerHTML =   showket.role;
-document.getElementById('player9button').href =      showket.profile;
+document.getElementById('player9button').href =      showket.profilezahid;
 
 //zahid startshere
 let zahid = {
@@ -139,8 +139,8 @@ document.getElementById('player11button').href =      liyaqat.profile;
 
 // mom 
 document.getElementById('momsection').classList.add('d-none');
-document.getElementById('mom').innerText = "Ahsaan Ul Haq";
-document.getElementById('momimage').src ="images/ehsaan.png";
+document.getElementById('mom').innerText = "Ishtiyaq Ayoub";
+document.getElementById('momimage').src ="images/ishtiyaq.png";
 document.getElementById('mompara').innerText = `
-Ahsaan Ul Haq was undoubtedly the star performer in the recent cricket game, earning him the well-deserved title of man of the match. Ahsaan's contribution with both bat and ball was pivotal in his team's victory. He showed great skill and determination while batting, scoring an impressive 61 runs with the help of 5 well-timed fours, setting a challenging target of 187 for the opposition. Ahsaan's bowling was equally impressive, as he took 2 crucial wickets that further helped his team's cause. He played with great confidence and composure, and his all-round performance was a true demonstration of his talent and passion for the game. Ahsaan's contribution proved to be the difference between the two teams, and he rightly earned the man of the match award. His performance was undoubtedly a testament to his hard work and dedication towards the sport, and he deserves all the accolades he gets.
+Ishtiyaq Ayoub, the star performer of the match, delivered an extraordinary bowling display that single-handedly dismantled the opposition's batting lineup. With the target set at a modest 89 runs in 40 overs, Ishtiyaq showcased his immense skill and determination, taking a remarkable four wickets. His bowling was nothing short of exceptional, as he consistently hit the right lengths and generated pace and movement off the pitch. Ishtiyaq's ability to swing the ball and deceive the batsmen with his variations made him virtually unplayable. His accurate line and length troubled the batsmen throughout their innings, leading to their eventual collapse. Ishtiyaq's wickets came at crucial junctures of the match, breaking partnerships and ensuring that his team maintained a stranglehold on the game. His outstanding performance played a pivotal role in defending the target, allowing his team to emerge victorious. Without a doubt, Ishtiyaq Ayoub's exceptional bowling performance rightfully earned him the well-deserved title of the "Man of the Match."
 `;
