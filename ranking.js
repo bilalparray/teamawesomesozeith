@@ -18,10 +18,10 @@ let owais = {
   role:"All Rounder",
   profile:"players/owais.html"
 }
-document.getElementById('player2image').src=         owais.image;
-document.getElementById('player2name').innerHTML =   owais.name;
-document.getElementById('player2role').innerHTML =   owais.role;
-document.getElementById('player2button').href =      owais.profile;
+document.getElementById('player3image').src=         owais.image;
+document.getElementById('player3name').innerHTML =   owais.name;
+document.getElementById('player3role').innerHTML =   owais.role;
+document.getElementById('player3button').href =      owais.profile;
 
 
 //ubaid starts here
@@ -32,10 +32,10 @@ let ubi = {
   role:"Wk Batsman",
   profile:"players/ubi.html"
 }
-document.getElementById('player3image').src=         ubi.image;
-document.getElementById('player3name').innerHTML =   ubi.name;
-document.getElementById('player3role').innerHTML =   ubi.role;
-document.getElementById('player3button').href =      ubi.profile;
+document.getElementById('player2image').src=         ubi.image;
+document.getElementById('player2name').innerHTML =   ubi.name;
+document.getElementById('player2role').innerHTML =   ubi.role;
+document.getElementById('player2button').href =      ubi.profile;
 
 ///ahsaan starts here
 let ehsaan = {
@@ -139,8 +139,12 @@ document.getElementById('player11button').href =      liyaqat.profile;
 
 // mom 
 // document.getElementById('momsection').classList.add('d-none');
-document.getElementById('mom').innerText = "Ishtiyaq Ayoub";
-document.getElementById('momimage').src ="images/ishtiyaq.png";
+document.getElementById('mom').innerText = "Suhail Ahmad Parray";
+document.getElementById('momimage').src ="images/suhail.png";
 document.getElementById('mompara').innerText = `
-Ishtiyaq Ayoub, the star performer of the match, delivered an extraordinary bowling display that single-handedly dismantled the opposition's batting lineup. With the target set at a modest 89 runs in 40 overs, Ishtiyaq showcased his immense skill and determination, taking a remarkable four wickets. His bowling was nothing short of exceptional, as he consistently hit the right lengths and generated pace and movement off the pitch. Ishtiyaq's ability to swing the ball and deceive the batsmen with his variations made him virtually unplayable. His accurate line and length troubled the batsmen throughout their innings, leading to their eventual collapse. Ishtiyaq's wickets came at crucial junctures of the match, breaking partnerships and ensuring that his team maintained a stranglehold on the game. His outstanding performance played a pivotal role in defending the target, allowing his team to emerge victorious. Without a doubt, Ishtiyaq Ayoub's exceptional bowling performance rightfully earned him the well-deserved title of the "Man of the Match."
+Suhail Parray, the sensational cricketer, showcased an exceptional display of bowling prowess in the recent match. With his outstanding skills, he managed to claim an impressive tally of four wickets, leading his team to bundle the opposition on a mere total of 133 runs. His remarkable performance with the ball not only disrupted the batting lineup of the opposing team but also played a vital role in securing a comprehensive victory for his side.
+
+Throughout the match, Suhail Parray displayed immense control over his deliveries, consistently troubling the batsmen with his accurate line and length. His ability to swing the ball both ways and deceive the opponents with his variations was truly commendable. Each wicket he claimed was a testament to his skill, precision, and tactical awareness on the field.
+
+By dismantling the opposition's batting order and restricting them to such a low total, Suhail Parray proved to be the X-factor for his team. His relentless determination and focus were evident throughout the match, as he relentlessly attacked the stumps, forcing the batsmen into making mistakes."
 `;
