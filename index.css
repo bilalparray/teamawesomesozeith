@@ -57,8 +57,9 @@ width: 100vw;
 
  /* mom-secton */
 .momdiv1{
-padding: 100px 60px;
+padding: 0px 60px;
 padding-bottom:0px ;
+
 }
 .momdiv1 h3{
 color: #19496E;
@@ -76,8 +77,9 @@ justify-content: center;
 }
 .mompara{
 margin-top: -70px!important;
-line-height: 44px;
+line-height: 34px;
 font-size:18px;
+color: rgba(18, 18, 18, 0.753);
 }
 .map-responsive{
 overflow:hidden;
@@ -125,7 +127,8 @@ font-size: 14px!important;
 margin-top: -30px!important;
 }
 .momdiv1{
-padding: 57px 20px!important;
+padding: 50px  20px  0  20px!important;
+padding-bottom: 2px;
 
 }
 .momdiv2{
@@ -146,9 +149,19 @@ padding-bottom: 0px!important;
   height: 300px!important; 
   border-radius: 10px;
 }
+.mompara{
+  margin-top:-50px !important;
+}
 }
 
 @media (max-width: 992px) {
+  .momdiv1{
+    padding: 50px 20px;
+  }
+  #mom{
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
   h1 {
     font-size: 40px;
   }

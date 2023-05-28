@@ -64,7 +64,7 @@ const UbiCareerStrike = strike(UbiCareerScoreSum, UbiCareerBallsSum);
 document.getElementById('UbiCareerStrike').innerHTML = ` ${UbiCareerStrike}`;
 
 const UbiCareerHighest = Math.max(...UbiCareerMatchesArray);
-document.getElementById('UbiCareerHighest').innerHTML = `${UbiCareerHighest}`;
+document.getElementById('UbiCareerHighest').innerHTML = `${UbiCareerHighest}*`;
 
 
 const UbiCareerWicketSum = UbiCareerWicketArray.reduce((accumulator, currentValue) => accumulator + currentValue);
