@@ -138,13 +138,13 @@ document.getElementById('player11button').href =      liyaqat.profile;
 
 
 // mom 
-document.getElementById('momsection').classList.add('d-none');
-document.getElementById('mom').innerText = "Suhail Ahmad Parray";
-document.getElementById('momimage').src ="images/suhail.png";
+// document.getElementById('momsection').classList.add('d-none');
+document.getElementById('mom').innerText = "Muzamil Fayaz";
+document.getElementById('momimage').src ="images/muzamil.png";
 document.getElementById('mompara').innerText = `
-Suhail Parray, the sensational cricketer, showcased an exceptional display of bowling prowess in the recent match. With his outstanding skills, he managed to claim an impressive tally of four wickets, leading his team to bundle the opposition on a mere total of 133 runs. His remarkable performance with the ball not only disrupted the batting lineup of the opposing team but also played a vital role in securing a comprehensive victory for his side.
+Muzamil displayed extraordinary talent both with the bat and the ball, making him the standout performer of the match.
 
-Throughout the match, Suhail Parray displayed immense control over his deliveries, consistently troubling the batsmen with his accurate line and length. His ability to swing the ball both ways and deceive the opponents with his variations was truly commendable. Each wicket he claimed was a testament to his skill, precision, and tactical awareness on the field.
+With the bat, Muzamil showcased his impeccable batting technique and delivered an impressive performance, scoring a crucial 27 runs. His innings was adorned with three elegant boundaries, each a testament to his impeccable timing and shot selection. Muzamil's ability to find the gaps and accumulate runs under pressure played a vital role in building our team's total.
 
-By dismantling the opposition's batting order and restricting them to such a low total, Suhail Parray proved to be the X-factor for his team. His relentless determination and focus were evident throughout the match, as he relentlessly attacked the stumps, forcing the batsmen into making mistakes."
+Not only did Muzamil excel with the bat, but he also showcased his prowess as a bowler. His bowling performance was nothing short of exceptional, as he claimed three crucial wickets. Muzamil's bowling spells were marked by precision, accuracy, and the ability to deceive the opposition batsmen. His crucial breakthroughs at crucial junctures of the game disrupted the flow of the opposition's innings and swung the match in our team's favor.
 `;
