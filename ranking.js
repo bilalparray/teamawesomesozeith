@@ -140,7 +140,7 @@ document.getElementById('player11button').href =      liyaqat.profile;
 // mom 
 // document.getElementById('momsection').classList.add('d-none');
 document.getElementById('mom').innerText = "Bilal Ahmad Parray";
-document.getElementById('momimage').src ="images/bilal.png";
+document.getElementById('momimage').src ="images/bilalmom.png";
 document.getElementById('mompara').innerText = `
 I would like to take a moment to recognize and applaud the remarkable performance of Bilal Ahmad Parray in our recent cricket match. Bilal's exceptional batting skills and determination were on full display as he scored an impressive 80 runs in just 68 balls, leaving everyone amazed.
 
