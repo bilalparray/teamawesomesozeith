@@ -139,12 +139,17 @@ document.getElementById('player11button').href =      liyaqat.profile;
 
 // mom 
 // document.getElementById('momsection').classList.add('d-none');
-document.getElementById('mom').innerText = "Muzamil Fayaz";
-document.getElementById('momimage').src ="images/muzamil.png";
+document.getElementById('mom').innerText = "Bilal Ahmad Parray";
+document.getElementById('momimage').src ="images/bilal.png";
 document.getElementById('mompara').innerText = `
-Muzamil displayed extraordinary talent both with the bat and the ball, making him the standout performer of the match.
+I would like to take a moment to recognize and applaud the remarkable performance of Bilal Ahmad Parray in our recent cricket match. Bilal's exceptional batting skills and determination were on full display as he scored an impressive 80 runs in just 68 balls, leaving everyone amazed.
 
-With the bat, Muzamil showcased his impeccable batting technique and delivered an impressive performance, scoring a crucial 27 runs. His innings was adorned with three elegant boundaries, each a testament to his impeccable timing and shot selection. Muzamil's ability to find the gaps and accumulate runs under pressure played a vital role in building our team's total.
+Throughout his innings, Bilal showcased his incredible talent, demonstrating excellent shot selection and timing. His aggressive yet calculated approach allowed him to hit 3 sixes and 7 fours, consistently finding the boundaries. His ability to score runs efficiently was a testament to his skills and dedication.
 
-Not only did Muzamil excel with the bat, but he also showcased his prowess as a bowler. His bowling performance was nothing short of exceptional, as he claimed three crucial wickets. Muzamil's bowling spells were marked by precision, accuracy, and the ability to deceive the opposition batsmen. His crucial breakthroughs at crucial junctures of the game disrupted the flow of the opposition's innings and swung the match in our team's favor.
-`;
+Not only did Bilal excel technically, but he also showed remarkable composure and resilience under pressure. Despite facing a challenging bowling attack, he remained focused and determined, capitalizing on every opportunity to contribute to the team's success.
+
+Bilal's knock of 80 runs played a vital role in our victory, setting a formidable target for the opposing team. His outstanding performance not only lifted our team's spirits but also served as an inspiration to his fellow teammates.
+
+`
+
+
