@@ -81,10 +81,10 @@ let ishtiyaq = {
   role:"All Rounder",
   profile:"players/ishtiyaq.html"
 }
-document.getElementById('player7image').src=         ishtiyaq.image;
-document.getElementById('player7name').innerHTML =   ishtiyaq.name;
-document.getElementById('player7role').innerHTML =   ishtiyaq.role;
-document.getElementById('player7button').href =      ishtiyaq.profile;
+document.getElementById('player8image').src=         ishtiyaq.image;
+document.getElementById('player8name').innerHTML =   ishtiyaq.name;
+document.getElementById('player8role').innerHTML =   ishtiyaq.role;
+document.getElementById('player8button').href =      ishtiyaq.profile;
 
 
 ///sahil
@@ -94,10 +94,10 @@ let sahil = {
   role:"Batsman",
   profile:"players/sahil.html"
 }
-document.getElementById('player8image').src=         sahil.image;
-document.getElementById('player8name').innerHTML =   sahil.name;
-document.getElementById('player8role').innerHTML =   sahil.role;
-document.getElementById('player8button').href =      sahil.profile;
+document.getElementById('player7image').src=         sahil.image;
+document.getElementById('player7name').innerHTML =   sahil.name;
+document.getElementById('player7role').innerHTML =   sahil.role;
+document.getElementById('player7button').href =      sahil.profile;
 
 ///showket
 let showket = {
