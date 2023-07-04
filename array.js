@@ -13,17 +13,17 @@ const ShowketScoreArray =  [04,06,03,04,11,10,01,07,00,12,39,16,21,13,00,20,01,1
  
 
 //last four
-const BilalLastFourArray =    [39,30,80,00,04];
-const OwaisLastFourArray =    [06,00,17,00,05];
-const SahilLastFourArray =    [19,17,07,27,00];
-const EhsaanLastFourArray =   [14,00,00,00,00];
-const ZahidLastFourArray =    [13,14,13,09,46];
-const SuhailLastFourArray =   [00,00,00,56,62];
-const IshtiyaqLastFourArray = [13,09,24,00,24];
-const MuzamilLastFourArray =  [22,27,14,18,00];
-const UbiLastFourArray =      [15,00,18,19,07];
-const LiyaqatLastFourArray =  [03,00,14,08,13];
-const ShowketLastFourArray =  [01,14,26,11,00];
+const BilalLastFourArray =    [04];
+const OwaisLastFourArray =    [05];
+const SahilLastFourArray =    [00];
+const EhsaanLastFourArray =   [00];
+const ZahidLastFourArray =    [46];
+const SuhailLastFourArray =   [62];
+const IshtiyaqLastFourArray = [24];
+const MuzamilLastFourArray =  [00];
+const UbiLastFourArray =      [07];
+const LiyaqatLastFourArray =  [13];
+const ShowketLastFourArray =  [00];
 
 
  
