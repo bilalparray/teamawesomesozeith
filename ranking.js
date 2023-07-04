@@ -138,7 +138,7 @@ document.getElementById('player11button').href =      liyaqat.profile;
 
 
 // mom 
-// document.getElementById('momsection').classList.add('d-none');
+ document.getElementById('momsection').classList.add('d-none');
 document.getElementById('mom').innerText = "Suhail Ahmad Parray";
 document.getElementById('momimage').src ="images/suhail.png";
 document.getElementById('mompara').innerText = `
