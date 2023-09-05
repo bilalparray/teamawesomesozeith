@@ -132,11 +132,11 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-document.getElementById("momsection").classList.add("d-none");
+//document.getElementById("momsection").classList.add("d-none");
 document.getElementById("mom").innerText = "Liyaqat Bhat";
 document.getElementById("momimage").src = "images/liyaqat.png";
 document.getElementById("mompara").innerText = `
-Congratulations to Liyaqat Bhat for his outstanding performance in the cricket game! His remarkable talent and skill on the field led to the impressive feat of taking 4 wickets. Liyaqat's exceptional bowling display not only showcased his ability to deceive and outwit the batsmen but also played a crucial role in turning the tide in favor of his team.
+Congratulations to Liyaqat Bhat for his outstanding performance in the cricket game! His remarkable talent and skill on the field led to the impressive feat of taking 4 wickets and Scoring quick 31 runs.  Liyaqat's exceptional bowling display not only showcased his ability to deceive and outwit the batsmen but also played a crucial role in turning the tide in favor of his team.
 
-Taking 4 wickets in a cricket match is a testament to Liyaqat's hard work, dedication, and perseverance in honing his craft. His ability to consistently produce match-winning performances is truly commendable and sets him apart as a valuable asset to the team.
+Taking 4wickets in a cricket match is a testament to Liyaqat's hard work, dedication, and perseverance in honing his craft. His ability to consistently produce match-winning performances is truly commendable and sets him apart as a valuable asset to the team.
 `;
