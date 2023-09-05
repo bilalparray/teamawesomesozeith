@@ -102,10 +102,10 @@ let showket = {
   role: "Batsman",
   profile: "players/showket.html",
 };
-document.getElementById("player9image").src = showket.image;
-document.getElementById("player9name").innerHTML = showket.name;
-document.getElementById("player9role").innerHTML = showket.role;
-document.getElementById("player9button").href = showket.profile;
+document.getElementById("player10image").src = showket.image;
+document.getElementById("player10name").innerHTML = showket.name;
+document.getElementById("player10role").innerHTML = showket.role;
+document.getElementById("player10button").href = showket.profile;
 
 //zahid startshere
 let zahid = {
@@ -114,10 +114,10 @@ let zahid = {
   role: "Batsman",
   profile: "players/zahid.html",
 };
-document.getElementById("player10image").src = zahid.image;
-document.getElementById("player10name").innerHTML = zahid.name;
-document.getElementById("player10role").innerHTML = zahid.role;
-document.getElementById("player10button").href = zahid.profile;
+document.getElementById("player9image").src = zahid.image;
+document.getElementById("player9name").innerHTML = zahid.name;
+document.getElementById("player9role").innerHTML = zahid.role;
+document.getElementById("player9button").href = zahid.profile;
 
 ///liyaqat
 let liyaqat = {
@@ -136,7 +136,7 @@ document.getElementById("player11button").href = liyaqat.profile;
 document.getElementById("mom").innerText = "Liyaqat Bhat";
 document.getElementById("momimage").src = "images/liyaqat.png";
 document.getElementById("mompara").innerText = `
-Congratulations to Liyaqat Bhat for his outstanding performance in the cricket game! His remarkable talent and skill on the field led to the impressive feat of taking 4 wickets and Scoring quick 31 runs.  Liyaqat's exceptional bowling display not only showcased his ability to deceive and outwit the batsmen but also played a crucial role in turning the tide in favor of his team.
+Liyaqat's performance on the cricket field was nothing short of spectacular. In a high-stakes match, he emerged as the Man of the Match (MOM) with a stunning display of skill and determination. With the ball in hand, he displayed impeccable bowling precision, claiming three crucial wickets that put the opposition on the back foot.
 
-Taking 4wickets in a cricket match is a testament to Liyaqat's hard work, dedication, and perseverance in honing his craft. His ability to consistently produce match-winning performances is truly commendable and sets him apart as a valuable asset to the team.
+But his heroics didn't stop there. When it was his turn to bat, Liyaqat played a blistering innings, scoring 31 quick runs that kept the scoreboard ticking. His two towering sixes, akin to monster shots, left the spectators in awe. Liyaqat's all-round excellence was the driving force behind his team's triumph, making him a true cricketing sensation.
 `;
