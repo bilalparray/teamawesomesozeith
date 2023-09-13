@@ -17,10 +17,10 @@ let owais = {
   role: "All Rounder",
   profile: "players/owais.html",
 };
-document.getElementById("player3image").src = owais.image;
-document.getElementById("player3name").innerHTML = owais.name;
-document.getElementById("player3role").innerHTML = owais.role;
-document.getElementById("player3button").href = owais.profile;
+document.getElementById("player4image").src = owais.image;
+document.getElementById("player4name").innerHTML = owais.name;
+document.getElementById("player4role").innerHTML = owais.role;
+document.getElementById("player4button").href = owais.profile;
 
 //ubaid starts here
 
@@ -42,10 +42,10 @@ let ehsaan = {
   role: "All Rounder",
   profile: "players/ehsaan.html",
 };
-document.getElementById("player4image").src = ehsaan.image;
-document.getElementById("player4name").innerHTML = ehsaan.name;
-document.getElementById("player4role").innerHTML = ehsaan.role;
-document.getElementById("player4button").href = ehsaan.profile;
+document.getElementById("player3image").src = ehsaan.image;
+document.getElementById("player3name").innerHTML = ehsaan.name;
+document.getElementById("player3role").innerHTML = ehsaan.role;
+document.getElementById("player3button").href = ehsaan.profile;
 
 //Suhail starts here
 let suhail = {
@@ -140,5 +140,4 @@ document.getElementById("mompara").innerText = `
 Ahsaan ul Haq showcased his remarkable batting skills by scoring an impressive 87 runs. His composed innings played a pivotal role in setting a competitive total for our team. Ahsaan displayed great technique, temperament, and a wide range of shots, ensuring that he held the innings together during crucial phases of the match.
 
 In addition to his remarkable batting display, Ahsaan also made a significant impact with his bowling. He took a crucial wicket, which further shifted the momentum of the game in our favor. His wicket came at a crucial juncture, disrupting the opposition's batting rhythm and putting us in a commanding position.
-
 `;
