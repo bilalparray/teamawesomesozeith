@@ -133,10 +133,12 @@ document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
 //document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Liyaqat Bhat";
-document.getElementById("momimage").src = "images/liyaqat.png";
+document.getElementById("mom").innerText = "Ahsaan Ul Haq";
+document.getElementById("momimage").src = "images/ehsaan.png";
 document.getElementById("mompara").innerText = `
-Liyaqat's performance on the cricket field was nothing short of spectacular. In a high-stakes match, he emerged as the Man of the Match (MOM) with a stunning display of skill and determination. With the ball in hand, he displayed impeccable bowling precision, claiming three crucial wickets that put the opposition on the back foot.
 
-But his heroics didn't stop there. When it was his turn to bat, Liyaqat played a blistering innings, scoring 31 quick runs that kept the scoreboard ticking. His two towering sixes, akin to monster shots, left the spectators in awe. Liyaqat's all-round excellence was the driving force behind his team's triumph, making him a true cricketing sensation.
+Ahsaan ul Haq showcased his remarkable batting skills by scoring an impressive 87 runs. His composed innings played a pivotal role in setting a competitive total for our team. Ahsaan displayed great technique, temperament, and a wide range of shots, ensuring that he held the innings together during crucial phases of the match.
+
+In addition to his remarkable batting display, Ahsaan also made a significant impact with his bowling. He took a crucial wicket, which further shifted the momentum of the game in our favor. His wicket came at a crucial juncture, disrupting the opposition's batting rhythm and putting us in a commanding position.
+
 `;
