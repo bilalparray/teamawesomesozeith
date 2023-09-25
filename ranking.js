@@ -134,10 +134,7 @@ document.getElementById("player11button").href = liyaqat.profile;
 // mom
 document.getElementById("momsection").classList.add("d-none");
 document.getElementById("mom").innerText = "Ahsaan Ul Haq";
-document.getElementById("momimage").src = "images/ehsaan.png";
+document.getElementById("momimage").src = "images/bilalmom.png";
 document.getElementById("mompara").innerText = `
-
-Ahsaan ul Haq showcased his remarkable batting skills by scoring an impressive 87 runs. His composed innings played a pivotal role in setting a competitive total for our team. Ahsaan displayed great technique, temperament, and a wide range of shots, ensuring that he held the innings together during crucial phases of the match.
-
-In addition to his remarkable batting display, Ahsaan also made a significant impact with his bowling. He took a crucial wicket, which further shifted the momentum of the game in our favor. His wicket came at a crucial juncture, disrupting the opposition's batting rhythm and putting us in a commanding position.
+Bilal Ahmad Parray's stellar performance in the match against Monsters Cricket Club truly deserved the Man of the Match (MOM) award. His outstanding batting display saw him amass a remarkable 80 runs in just 77 balls, a testament to his skill and composure under pressure. Bilal's innings included three powerful sixes and six well-timed fours that not only showcased his ability to find the gaps but also his penchant for clearing the boundaries when needed. His exceptional contribution played a pivotal role in his team's victory, making him the undisputed MOM and a standout performer on the cricket field.
 `;
