@@ -132,9 +132,13 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Ahsaan Ul Haq";
-document.getElementById("momimage").src = "images/bilalmom.png";
+// document.getElementById("momsection").classList.add("d-none");
+document.getElementById("mom").innerText = "Liyaqat Tariq Bhat";
+document.getElementById("momimage").src = "images/lee.png";
 document.getElementById("mompara").innerText = `
-Bilal Ahmad Parray's stellar performance in the match against Monsters Cricket Club truly deserved the Man of the Match (MOM) award. His outstanding batting display saw him amass a remarkable 80 runs in just 77 balls, a testament to his skill and composure under pressure. Bilal's innings included three powerful sixes and six well-timed fours that not only showcased his ability to find the gaps but also his penchant for clearing the boundaries when needed. His exceptional contribution played a pivotal role in his team's victory, making him the undisputed MOM and a standout performer on the cricket field.
+Liyaqat Bhat's performance in the match was nothing short of exceptional. He not only displayed remarkable batting skills but also proved to be a vital asset with his bowling prowess. Scoring 28 runs while chasing the target, he showed great composure under pressure, anchoring the innings when it mattered the most.
+
+However, what truly set Liyaqat apart was his contribution with the ball. Taking 4 crucial wickets, he dismantled the opposition's batting lineup and put them on the backfoot. His ability to strike at crucial moments turned the tide of the game in our favor, and his wickets were instrumental in our team's victory.
+
+Liyaqat Bhat's all-round performance, combining his batting and bowling excellence, made him the standout player of the match. His dedication and skill were a source of inspiration for the entire team, and his efforts played a pivotal role in securing our win.
 `;
