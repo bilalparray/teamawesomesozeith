@@ -133,12 +133,10 @@ document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
 // document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Liyaqat Tariq Bhat";
-document.getElementById("momimage").src = "images/lee.png";
+document.getElementById("mom").innerText = "Ubi Obaid";
+document.getElementById("momimage").src = "images/ubi.png";
 document.getElementById("mompara").innerText = `
-Liyaqat Bhat's performance in the match was nothing short of exceptional. He not only displayed remarkable batting skills but also proved to be a vital asset with his bowling prowess. Scoring 28 runs while chasing the target, he showed great composure under pressure, anchoring the innings when it mattered the most.
+Mum is beaming with pride today as UBi Obaid achieved a remarkable feat on the cricket field. In a thrilling match against Friends 11, Obaid showcased his exceptional cricketing skills by scoring a phenomenal 100 runs. His performance was nothing short of extraordinary, and it left everyone in awe.
 
-However, what truly set Liyaqat apart was his contribution with the ball. Taking 4 crucial wickets, he dismantled the opposition's batting lineup and put them on the backfoot. His ability to strike at crucial moments turned the tide of the game in our favor, and his wickets were instrumental in our team's victory.
-
-Liyaqat Bhat's all-round performance, combining his batting and bowling excellence, made him the standout player of the match. His dedication and skill were a source of inspiration for the entire team, and his efforts played a pivotal role in securing our win.
+We all know that Obaid's dedication and hard work have paid off, and this century is a testament to his unwavering commitment to the sport. As his family, we couldn't be happier for his remarkable achievement, and we look forward to seeing him achieve even greater heights in the future. Congratulations, UBi Obaid, on this outstanding milestone in your cricketing journey!
 `;
