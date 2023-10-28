@@ -68,7 +68,7 @@ const SuhailScoreArray = [
   0,
   24,
   10,
-  ,
+  
   0,
   10,
 ];
