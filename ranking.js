@@ -133,10 +133,10 @@ document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
 // document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Ubi Obaid";
-document.getElementById("momimage").src = "images/ubi.png";
+document.getElementById("mom").innerText = "Owais Farooq";
+document.getElementById("momimage").src = "images/owais.png";
 document.getElementById("mompara").innerText = `
-Mum is beaming with pride today as UBi Obaid achieved a remarkable feat on the cricket field. In a thrilling match against Friends 11, Obaid showcased his exceptional cricketing skills by scoring a phenomenal 100 runs. His performance was nothing short of extraordinary, and it left everyone in awe.
+Mum is beaming with pride today as Owais achieved a remarkable feat on the cricket field. In a thrilling match against Friends 11, Owais showcased his exceptional cricketing skills by scoring a phenomenal 36 runs and took 2 wickets. His performance was nothing short of extraordinary, and it left everyone in awe.
 
-We all know that Obaid's dedication and hard work have paid off, and this century is a testament to his unwavering commitment to the sport. As his family, we couldn't be happier for his remarkable achievement, and we look forward to seeing him achieve even greater heights in the future. Congratulations, UBi Obaid, on this outstanding milestone in your cricketing journey!
+We all know that owais's dedication and hard work have paid off, and this century is a testament to his unwavering commitment to the sport. As his family, we couldn't be happier for his remarkable achievement, and we look forward to seeing him achieve even greater heights in the future. Congratulations, Owais Farooq, on this outstanding milestone in your cricketing journey!
 `;
