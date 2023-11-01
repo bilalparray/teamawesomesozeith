@@ -17,10 +17,10 @@ let owais = {
   role: "All Rounder",
   profile: "players/owais.html",
 };
-document.getElementById("player4image").src = owais.image;
-document.getElementById("player4name").innerHTML = owais.name;
-document.getElementById("player4role").innerHTML = owais.role;
-document.getElementById("player4button").href = owais.profile;
+document.getElementById("player3image").src = owais.image;
+document.getElementById("player3name").innerHTML = owais.name;
+document.getElementById("player3role").innerHTML = owais.role;
+document.getElementById("player3button").href = owais.profile;
 
 //ubaid starts here
 
@@ -42,10 +42,10 @@ let ehsaan = {
   role: "All Rounder",
   profile: "players/ehsaan.html",
 };
-document.getElementById("player3image").src = ehsaan.image;
-document.getElementById("player3name").innerHTML = ehsaan.name;
-document.getElementById("player3role").innerHTML = ehsaan.role;
-document.getElementById("player3button").href = ehsaan.profile;
+document.getElementById("player4image").src = ehsaan.image;
+document.getElementById("player4name").innerHTML = ehsaan.name;
+document.getElementById("player4role").innerHTML = ehsaan.role;
+document.getElementById("player4button").href = ehsaan.profile;
 
 //Suhail starts here
 let suhail = {
