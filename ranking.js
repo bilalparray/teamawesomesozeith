@@ -132,7 +132,7 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-// document.getElementById("momsection").classList.add("d-none");
+document.getElementById("momsection").classList.add("d-none");
 document.getElementById("mom").innerText = "Owais Farooq";
 document.getElementById("momimage").src = "images/owais.png";
 document.getElementById("mompara").innerText = `
