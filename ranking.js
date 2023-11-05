@@ -132,11 +132,11 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Owais Farooq";
-document.getElementById("momimage").src = "images/owais.png";
+// document.getElementById("momsection").classList.add("d-none");
+document.getElementById("mom").innerText = "Liyaqat Bhat";
+document.getElementById("momimage").src = "images/liyaqat.png";
 document.getElementById("mompara").innerText = `
-Mum is beaming with pride today as Owais achieved a remarkable feat on the cricket field. In a thrilling match against Friends 11, Owais showcased his exceptional cricketing skills by scoring a phenomenal 36 runs and took 2 wickets. His performance was nothing short of extraordinary, and it left everyone in awe.
+Liyaqat Bhat's performance against Ganie Brothers in the cricket match was nothing short of extraordinary. With an exceptional display of bowling skills, he managed to take a total of 8 wickets, showcasing his prowess as a bowler. His remarkable achievement not only turned the match in his team's favor but also earned him well-deserved recognition and appreciation from both his teammates and the cricket enthusiasts present. Liyaqat Bhat's dedication, talent, and determination were on full display that day, making him a standout performer and a crucial asset to his team's success. His incredible feat of taking 8 wickets will undoubtedly be remembered as a memorable moment in his cricketing career.
 
-We all know that owais's dedication and hard work have paid off, and this century is a testament to his unwavering commitment to the sport. As his family, we couldn't be happier for his remarkable achievement, and we look forward to seeing him achieve even greater heights in the future. Congratulations, Owais Farooq, on this outstanding milestone in your cricketing journey!
+
 `;
