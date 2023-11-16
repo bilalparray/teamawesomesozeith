@@ -119,6 +119,7 @@ const ShowketBallsArray = [
 const BilalWicketArray = [1, 1, 1, 1, 2];
 const OwaisWicketArray = [
   1, 2, 2, 1, 1, 2, 3, 1, 3, 0, 3, 2, 3, 1, 1, 4, 4, 2, 2, 1, 1, 4, 1, 2, 1, 1,
+  1,
 ];
 const SahilWicketArray = [2, 3, 2];
 const EhsaanWicketArray = [
@@ -131,11 +132,11 @@ const ZahidWicketArray = [
 ];
 const SuhailWicketArray = [
   0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 0, 0, 4, 0, 2,
-  0, 1, 2, 1, 2, 1,
+  0, 1, 2, 1, 2, 1, 1,
 ];
 const IshtiyaqWicketArray = [
   2, 2, 1, 2, 0, 4, 0, 2, 0, 2, 4, 0, 0, 1, 0, 0, 2, 2, 4, 2, 3, 3, 4, 2, 0, 0,
-  4, 1, 2, 4, 1, 4, 4, 3, 2, 1,
+  4, 1, 2, 4, 1, 4, 4, 3, 2, 1, 5,
 ];
 const MuzamilWicketArray = [
   3, 3, 2, 0, 0, 1, 2, 1, 2, 1, 0, 0, 0, 2, 1, 1, 1, 2, 0, 1, 0, 3, 0, 0, 1, 1,
@@ -144,6 +145,6 @@ const MuzamilWicketArray = [
 const UbiWicketArray = [0];
 const LiyaqatWicketArray = [
   3, 1, 2, 4, 2, 3, 0, 2, 2, 2, 1, 0, 0, 0, 3, 0, 3, 1, 1, 2, 1, 0, 1, 2, 3, 0,
-  5, 1, 2, 4, 3, 3, 1, 1, 4, 3, 4, 4, 8,
+  5, 1, 2, 4, 3, 3, 1, 1, 4, 3, 4, 4, 8, 2,
 ];
 const ShowketWicketArray = [0, 0, 3, 1, 2, 1];
