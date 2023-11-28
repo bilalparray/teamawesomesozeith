@@ -132,11 +132,11 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Liyaqat Bhat";
-document.getElementById("momimage").src = "images/liyaqat.png";
+// document.getElementById("momsection").classList.add("d-none");
+document.getElementById("mom").innerText = "Bilal Ahmad";
+document.getElementById("momimage").src = "images/bilalmom.png";
 document.getElementById("mompara").innerText = `
-Liyaqat Bhat's performance against Ganie Brothers in the cricket match was nothing short of extraordinary. With an exceptional display of bowling skills, he managed to take a total of 8 wickets, showcasing his prowess as a bowler. His remarkable achievement not only turned the match in his team's favor but also earned him well-deserved recognition and appreciation from both his teammates and the cricket enthusiasts present. Liyaqat Bhat's dedication, talent, and determination were on full display that day, making him a standout performer and a crucial asset to his team's success. His incredible feat of taking 8 wickets will undoubtedly be remembered as a memorable moment in his cricketing career.
+Bilal Ahmad Parray was the star of the show for his team today, scoring a brilliant 53 runs to help them secure victory. He played a composed innings, right from the start, and never let the bowlers settle. He was particularly strong against the spinners, and he hit some fine boundaries to all parts of the ground. His innings was a major factor in his team's win, and he is a deserving recipient of the Man of the Match award.
 
 
 `;
