@@ -133,10 +133,10 @@ document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
 // document.getElementById("momsection").classList.add("d-none");
-document.getElementById("mom").innerText = "Bilal Ahmad";
-document.getElementById("momimage").src = "images/bilalmom.png";
+document.getElementById("mom").innerText = "Showket Ahmad";
+document.getElementById("momimage").src = "images/showket.png";
 document.getElementById("mompara").innerText = `
-Bilal Ahmad Parray was the star of the show for his team today, scoring a brilliant 53 runs to help them secure victory. He played a composed innings, right from the start, and never let the bowlers settle. He was particularly strong against the spinners, and he hit some fine boundaries to all parts of the ground. His innings was a major factor in his team's win, and he is a deserving recipient of the Man of the Match award.
+showket Ahmad Parray was the star of the show for his team today, scoring a brilliant 34 runs and took 2 wickets to help them secure victory. He played a composed innings, right from the start, and never let the bowlers settle. He was particularly strong against the spinners, and he hit some fine boundaries to all parts of the ground. His innings was a major factor in his team's win, and he is a deserving recipient of the Man of the Match award.
 
 
 `;
