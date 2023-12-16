@@ -132,7 +132,7 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-document.getElementById("momsection").classList.add("d-none");
+// document.getElementById("momsection").classList.add("d-none");
 document.getElementById("mom").innerText = "Showket Ahmad";
 document.getElementById("momimage").src = "images/showket.png";
 document.getElementById("mompara").innerText = `
