@@ -1,11 +1,14 @@
 const Zahid2022=[10,12,5];
-console.log(Zahid2022.reduce((a,b)=>a+b));
-console.log(Zahid2022.length);
+const ZahidRuns2023 = [
+  2, 7, 33, 9, 4, 3, 9, 27, 10, 11, 15, 35, 0, 5, 1, 13, 27, 10, 8, 10, 13, 14,
+  13, 9, 46, 3, 1, 9, 8, 22, 5, 14, 1, 2, 15, 0, 10, 10, 10, 2, 10, 0, 6, 10,
+  10, 19, 10, 26,
+];
 
 
-const ZahidCareerWicketArray = [ ...ZahidWicketArray];
-const ZahidCareerBallsArray = [...ZahidBallsArray,...Zahid2022];
-const ZahidCareerMatchesArray = [ ...ZahidScoreArray,...Zahid2022];
+const ZahidCareerWicketArray = [13, ...ZahidWicketArray];
+const ZahidCareerBallsArray = [...ZahidBallsArray,...Zahid2022,452];
+const ZahidCareerMatchesArray = [ ...ZahidScoreArray,...Zahid2022,...ZahidRuns2023];
 
 
 
