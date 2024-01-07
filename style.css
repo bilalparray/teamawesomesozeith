@@ -4,7 +4,20 @@ body {
   overflow-x: hidden;
 }
 
-
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(66, 66, 66, 0.3);
+  border-radius: 5px;
+  background-color: white;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(103, 226, 9);
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(66, 66, 66, 0.3);
+  background-color: blue;
+}
 #logo {
   border-radius: 9px;
   height: 50px;
@@ -73,7 +86,7 @@ span {
   display: flex;
   justify-content: center;
   text-align: center;
-  text-decoration:none;
+  text-decoration: none;
   padding-top: 10px;
   font-weight: bold;
 }
@@ -264,7 +277,6 @@ span {
   padding: 6px;
 }
 
-
 @media (max-width: 700px) {
   body section {
     overflow-x: hidden !important;
@@ -295,7 +307,7 @@ span {
     font-size: 20px;
     width: 120px;
   }
-  
+
   .hello {
     padding-top: 120px;
     padding-left: 30px;
@@ -305,7 +317,6 @@ span {
   #name {
     font-size: 30px;
     padding-bottom: 80px;
-   
   }
   .hello2 {
     font-size: 20px;
