@@ -78,10 +78,10 @@ let ishtiyaq = {
   role: "All Rounder",
   profile: "players/ishtiyaq.html",
 };
-document.getElementById("player7image").src = ishtiyaq.image;
-document.getElementById("player7name").innerHTML = ishtiyaq.name;
-document.getElementById("player7role").innerHTML = ishtiyaq.role;
-document.getElementById("player7button").href = ishtiyaq.profile;
+document.getElementById("player8name").innerHTML = ishtiyaq.name;
+document.getElementById("player8role").innerHTML = ishtiyaq.role;
+document.getElementById("player8button").href = ishtiyaq.profile;
+document.getElementById("player8image").src = ishtiyaq.image;
 
 ///sahil
 let sahil = {
@@ -90,10 +90,10 @@ let sahil = {
   role: "Batsman",
   profile: "players/sahil.html",
 };
-document.getElementById("player8image").src = sahil.image;
-document.getElementById("player8name").innerHTML = sahil.name;
-document.getElementById("player8role").innerHTML = sahil.role;
-document.getElementById("player8button").href = sahil.profile;
+document.getElementById("player7image").src = sahil.image;
+document.getElementById("player7name").innerHTML = sahil.name;
+document.getElementById("player7role").innerHTML = sahil.role;
+document.getElementById("player7button").href = sahil.profile;
 
 ///showket
 let showket = {
@@ -132,7 +132,7 @@ document.getElementById("player11role").innerHTML = liyaqat.role;
 document.getElementById("player11button").href = liyaqat.profile;
 
 // mom
-// document.getElementById("momsection").classList.add("d-none");
+document.getElementById("momsection").classList.add("d-none");
 document.getElementById("mom").innerText = "Bilal Ahmad Parray";
 document.getElementById("momimage").src = "images/bilalmom.png";
 document.getElementById("mompara").innerText = `
