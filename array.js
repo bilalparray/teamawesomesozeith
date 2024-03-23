@@ -1,37 +1,37 @@
 //Batting Array 2024
 const BilalScoreArray = [53, 5, 0, 14, 0, 10, 0, 7, 2];
-const BilalLastFourArray = [];
+const BilalLastFourArray = [10];
 // ///////////////////////////////////
 const OwaisScoreArray = [14, 42, 14, 0, 19, 10, 19, 0, 6];
-const OwaisLastFourArray = [];
+const OwaisLastFourArray = [10];
 // /////////////////////////////////////
 const SahilScoreArray = [4, 10, 60, 26, 42, 6, 42, 0, 18];
-const SahilLastFourArray = [];
+const SahilLastFourArray = [6];
 // /////////////////////////////////////
 
 const EhsaanScoreArray = [0, 0, 0, 0, 0, 10, 0, 0];
-const EhsaanLastFourArray = [];
+const EhsaanLastFourArray = [10];
 // ////////////////////////////////////
 const ZahidScoreArray = [43, 59, 26, 19, 22, 11, 22, 49, 6];
-const ZahidLastFourArray = [];
+const ZahidLastFourArray = [11];
 // /////////////////////////////////////////
 const SuhailScoreArray = [25, 13, 12, 35, 0, 43, 0, 0, 28];
-const SuhailLastFourArray = [];
+const SuhailLastFourArray = [43];
 ///////////////////////////////////////////
 const IshtiyaqScoreArray = [2, 10, 0, 34, 52, 46, 52, 0, 4];
-const IshtiyaqLastFourArray = [];
+const IshtiyaqLastFourArray = [46];
 // //////////////////////////////////////////
 const MuzamilScoreArray = [0, 40, 28, 56, 18, 15, 13, 0, 36];
-const MuzamilLastFourArray = [];
+const MuzamilLastFourArray = [15];
 // /////////////////////////////////////////
 const UbiScoreArray = [17, 10, 35, 1, 0, 10, 0, 34, 38];
-const UbiLastFourArray = [];
+const UbiLastFourArray = [10];
 // /////////////////////////////////////////
 const LiyaqatScoreArray = [0, 5, 13, 3, 13, 14, 13, 0, 58];
-const LiyaqatLastFourArray = [];
+const LiyaqatLastFourArray = [14];
 // ////////////////////////////////////////
 const ShowketScoreArray = [17, 6, 0, 14, 21, 14, 21, 0, 0];
-const ShowketLastFourArray = [];
+const ShowketLastFourArray = [14];
 // ///////////////////////////////////////////
 
 //Balls Faced  Array 223
