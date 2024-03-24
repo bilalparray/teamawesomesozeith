@@ -34,20 +34,19 @@ const ShowketScoreArray = [17, 6, 0, 14, 21, 14, 21, 0, 0];
 const ShowketLastFourArray = [14];
 // ///////////////////////////////////////////
 
-//Balls Faced  Array 223
+//Balls Faced  Array 2204
 
-const BilalBallsArray = [46, 8];
-
-const OwaisBallsArray = [16, 40];
-const SahilBallsArray = [4, 14, 47];
+const BilalBallsArray = [46, 8, 16];
+const OwaisBallsArray = [16, 80];
+const SahilBallsArray = [4, 14, 47, 68];
 const EhsaanBallsArray = [0, 1];
-const ZahidBallsArray = [26, 70];
-const SuhailBallsArray = [68, 21];
-const IshtiyaqBallsArray = [4, 3];
-const MuzamilBallsArray = [1, 65];
-const UbiBallsArray = [12, 28];
-const LiyaqatBallsArray = [1, 28];
-const ShowketBallsArray = [9, 12];
+const ZahidBallsArray = [26, 70, 36];
+const SuhailBallsArray = [68, 21, 105];
+const IshtiyaqBallsArray = [4, 3, 83];
+const MuzamilBallsArray = [1, 65, 58];
+const UbiBallsArray = [12, 28, 94];
+const LiyaqatBallsArray = [1, 28, 55];
+const ShowketBallsArray = [9, 12, 20];
 
 //Wickets  Array 2024
 const BilalWicketArray = [0];
