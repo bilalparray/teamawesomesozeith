@@ -102,7 +102,7 @@ const ShowketBallsArray = [9, 12, 20, 11, 5];
 
 const BilalWicketArray = [0];
 
-const OwaisWicketArray = [2, 1, 5, 3, 3, 3, 1, 2];
+const OwaisWicketArray = [2, 1, 5, 3, 3, 3, 1, 2,3];
 
 const SahilWicketArray = [2];
 
@@ -112,12 +112,46 @@ const ZahidWicketArray = [0, 1, 2, 2, 1, 1, 3, 1, 1];
 
 const SuhailWicketArray = [0, 3, 2, 2];
 
-const IshtiyaqWicketArray = [1, 1, 3, 4, 1, 3, 1, 2];
+const IshtiyaqWicketArray = [1, 1, 3, 4, 1, 3, 1, 2,1];
 
-const MuzamilWicketArray = [4, 1, 1, 4, 1, 2, 1, 3];
+const MuzamilWicketArray = [4, 1, 1, 4, 1, 2, 1, 3,1];
 
 const UbiWicketArray = [0];
 
-const LiyaqatWicketArray = [2, 3, 2, 4, 3, 2];
+const LiyaqatWicketArray = [2, 3, 2, 4, 3, 2,1];
+
+const ShowketWicketArray = [1];ay = [4, 3, 83, 16];
+
+const MuzamilBallsArray = [1, 65, 58, 17, 33];
+
+const UbiBallsArray = [12, 28, 94, 2];
+
+const LiyaqatBallsArray = [1, 28, 55, 22, 10];
+
+const ShowketBallsArray = [9, 12, 20, 11, 5];
+
+
+
+//Wickets  Array 2024
+
+const BilalWicketArray = [0];
+
+const OwaisWicketArray = [2, 1, 5, 3, 3, 3, 1, 2,3];
+
+const SahilWicketArray = [2];
+
+const EhsaanWicketArray = [0];
+
+const ZahidWicketArray = [0, 1, 2, 2, 1, 1, 3, 1, 1];
+
+const SuhailWicketArray = [0, 3, 2, 2];
+
+const IshtiyaqWicketArray = [1, 1, 3, 4, 1, 3, 1, 2,1];
+
+const MuzamilWicketArray = [4, 1, 1, 4, 1, 2, 1, 3,1];
+
+const UbiWicketArray = [0];
+
+const LiyaqatWicketArray = [2, 3, 2, 4, 3, 2,1];
 
 const ShowketWicketArray = [1];
