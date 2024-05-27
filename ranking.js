@@ -17,10 +17,10 @@ let owais = {
   role: "All Rounder",
   profile: "players/owais.html",
 };
-document.getElementById("player3image").src = owais.image;
-document.getElementById("player3name").innerHTML = owais.name;
-document.getElementById("player3role").innerHTML = owais.role;
-document.getElementById("player3button").href = owais.profile;
+document.getElementById("player2image").src = owais.image;
+document.getElementById("player2name").innerHTML = owais.name;
+document.getElementById("player2role").innerHTML = owais.role;
+document.getElementById("player2button").href = owais.profile;
 
 //ubaid starts here
 
@@ -30,10 +30,10 @@ let ubi = {
   role: "Wk Batsman",
   profile: "players/ubi.html",
 };
-document.getElementById("player2image").src = ubi.image;
-document.getElementById("player2name").innerHTML = ubi.name;
-document.getElementById("player2role").innerHTML = ubi.role;
-document.getElementById("player2button").href = ubi.profile;
+document.getElementById("player3image").src = ubi.image;
+document.getElementById("player3name").innerHTML = ubi.name;
+document.getElementById("player3role").innerHTML = ubi.role;
+document.getElementById("player3button").href = ubi.profile;
 
 ///ahsaan starts here
 let ehsaan = {
@@ -54,10 +54,10 @@ let suhail = {
   role: "All Rounder",
   profile: "players/suhail.html",
 };
-document.getElementById("player5image").src = suhail.image;
-document.getElementById("player5name").innerHTML = suhail.name;
-document.getElementById("player5role").innerHTML = suhail.role;
-document.getElementById("player5button").href = suhail.profile;
+document.getElementById("player6image").src = suhail.image;
+document.getElementById("player6name").innerHTML = suhail.name;
+document.getElementById("player6role").innerHTML = suhail.role;
+document.getElementById("player6button").href = suhail.profile;
 
 //maxi starts here
 let muzamil = {
@@ -66,10 +66,10 @@ let muzamil = {
   role: "All Rounder",
   profile: "players/muzamil.html",
 };
-document.getElementById("player6image").src = muzamil.image;
-document.getElementById("player6name").innerHTML = muzamil.name;
-document.getElementById("player6role").innerHTML = muzamil.role;
-document.getElementById("player6button").href = muzamil.profile;
+document.getElementById("player5image").src = muzamil.image;
+document.getElementById("player5name").innerHTML = muzamil.name;
+document.getElementById("player5role").innerHTML = muzamil.role;
+document.getElementById("player5button").href = muzamil.profile;
 
 ///Ishtiyaq
 let ishtiyaq = {
@@ -102,10 +102,10 @@ let showket = {
   role: "Batsman",
   profile: "players/showket.html",
 };
-document.getElementById("player10image").src = showket.image;
-document.getElementById("player10name").innerHTML = showket.name;
-document.getElementById("player10role").innerHTML = showket.role;
-document.getElementById("player10button").href = showket.profile;
+document.getElementById("player11image").src = showket.image;
+document.getElementById("player11name").innerHTML = showket.name;
+document.getElementById("player11role").innerHTML = showket.role;
+document.getElementById("player11button").href = showket.profile;
 
 //zahid startshere
 let zahid = {
@@ -126,10 +126,10 @@ let liyaqat = {
   role: "Bowler",
   profile: "players/liyaqat.html",
 };
-document.getElementById("player11image").src = liyaqat.image;
-document.getElementById("player11name").innerHTML = liyaqat.name;
-document.getElementById("player11role").innerHTML = liyaqat.role;
-document.getElementById("player11button").href = liyaqat.profile;
+document.getElementById("player10image").src = liyaqat.image;
+document.getElementById("player10name").innerHTML = liyaqat.name;
+document.getElementById("player10role").innerHTML = liyaqat.role;
+document.getElementById("player10button").href = liyaqat.profile;
 
 // mom
 document.getElementById("momsection").classList.add("d-none");
