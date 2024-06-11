@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Batting Order Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Team Awesome Sozeith</title>
+    <!-- not letting browser to store data -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- not letting browser to store data -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      body {
+        padding: 20px 0px;
+        margin: 0;
+      }
+
+      .heading {
+        font-size: 26px;
+      }
+
+      .btn-calculate {
+        margin-top: 20px;
+      }
+      ol {
+        margin: 0;
+        padding: 0 0 0 15px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Batting Order Calculator</h1>
+    <div class="container-fluid">
+      <h1 class="mb-4 heading">Batting Order Calculator</h1>
 
-    <h2>Current Batting Order:</h2>
-    <ol id="currentOrderList"></ol>
+      <div class="row mb-2">
+        <div class="col">
+          <h6>Current Batting Order:</h6>
+          <ol id="currentOrderList"></ol>
+        </div>
+      </div>
 
-    <button onclick="calculateNewOrder()">Calculate New Order</button>
+      <div class="row mb-2">
+        <div class="col">
+          <button
+            class="btn btn-primary btn-calculate"
+            onclick="calculateNewOrder()"
+          >
+            Calculate New Order
+          </button>
+        </div>
+      </div>
 
-    <h2>New Batting Order:</h2>
-    <ol id="newOrderList"></ol>
+      <div class="row">
+        <div class="col">
+          <h2>New Batting Order:</h2>
+          <ol id="newOrderList"></ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
       const playerScores = {
@@ -23,7 +81,7 @@
         Zahid: [53, 18],
         Suhail: [27, 0],
         Ishtiyaq: [5, 1],
-        Ubaid: [10, 1],
+        Ubi: [10, 1],
         Muzamil: [10, 15],
         Liyaqat: [0, 11],
         Showket: [10, 5],
@@ -40,39 +98,27 @@
         "Showket",
         "Muzamil",
         "Liyaqat",
-        "Ubaid",
+        "Ubi",
       ];
 
       function calculateNewBattingOrder(playerScores, currentOrder) {
-        // Calculate total scores
         let totalScores = {};
         for (let player in playerScores) {
           totalScores[player] = playerScores[player].reduce((a, b) => a + b, 0);
         }
 
-        // Extract last 3 players from the current order and sort them
         let lastThreeFromCurrentOrder = currentOrder
           .slice(8, 11)
           .sort((a, b) => totalScores[b] - totalScores[a]);
-
-        // Sort the first 8 players by their total scores
         let firstEight = currentOrder
           .slice(0, 8)
           .sort((a, b) => totalScores[b] - totalScores[a]);
-
-        // Split the sorted first 8 players into the top 5 and the next 3
         let topFive = firstEight.slice(0, 5);
         let nextThree = firstEight.slice(5, 8);
-
-        // Concatenate the sorted last 3 from the current order with the top 5
         let newFirstEight = topFive.concat(lastThreeFromCurrentOrder);
-
-        // Sort the new first 8 players again
         let newFirstEightSorted = newFirstEight.sort(
           (a, b) => totalScores[b] - totalScores[a]
         );
-
-        // Concatenate the sorted remaining 3 players with the new first 8
         let newOrder = newFirstEightSorted.concat(nextThree);
 
         return newOrder;
@@ -88,20 +134,20 @@
       }
 
       function displayOrder(order, elementId) {
-        let orderList = document.getElementById(elementId);
-        orderList.innerHTML = "";
+        let orderList = $("#" + elementId);
+        orderList.empty();
         order.forEach((player) => {
           let totalRuns = playerScores[player].reduce((a, b) => a + b, 0);
-          let li = document.createElement("li");
-          li.textContent = `${player} (Total Runs: ${totalRuns}) - Scores: ${playerScores[
-            player
-          ].join(", ")}`;
-          orderList.appendChild(li);
+          let li = $("<li>").text(
+            `${player} (Total Runs: ${totalRuns}) - Scores: ${playerScores[
+              player
+            ].join(", ")}`
+          );
+          orderList.append(li);
         });
       }
 
-      // Display the initial current order on page load
-      document.addEventListener("DOMContentLoaded", () => {
+      $(document).ready(function () {
         displayOrder(currentBattingOrder, "currentOrderList");
       });
     </script>
