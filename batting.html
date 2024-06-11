@@ -15,74 +15,75 @@
     <ol id="newOrderList"></ol>
 
     <script>
-      const batsmanScores = {
-        BilalLastFourArray: [21, 0],
-        OwaisLastFourArray: [12, 19],
-        SahilLastFourArray: [20, 8],
-        EhsaanLastFourArray: [0, 47],
-        ZahidLastFourArray: [53, 18],
-        SuhailLastFourArray: [27, 0],
-        IshtiyaqLastFourArray: [5, 1],
-        UbiLastFourArray: [10, 99],
-        MuzamilLastFourArray: [10, 15],
-        LiyaqatLastFourArray: [0, 11],
-        ShowketLastFourArray: [10, 5],
+      const playerScores = {
+        Bilal: [21, 0],
+        Owais: [12, 19],
+        Sahil: [20, 8],
+        Ehsaan: [0, 47],
+        Zahid: [53, 18],
+        Suhail: [27, 0],
+        Ishtiyaq: [5, 1],
+        Ubaid: [10, 1],
+        Muzamil: [10, 15],
+        Liyaqat: [0, 11],
+        Showket: [10, 5],
       };
 
-      const currentOrder = [
-        "SahilLastFourArray",
-        "IshtiyaqLastFourArray",
-        "OwaisLastFourArray",
-        "SuhailLastFourArray",
-        "BilalLastFourArray",
-        "ZahidLastFourArray",
-        "EhsaanLastFourArray",
-        "ShowketLastFourArray",
-        "MuzamilLastFourArray",
-        "LiyaqatLastFourArray",
-        "UbiLastFourArray",
+      const currentBattingOrder = [
+        "Sahil",
+        "Ishtiyaq",
+        "Owais",
+        "Suhail",
+        "Bilal",
+        "Zahid",
+        "Ehsaan",
+        "Showket",
+        "Muzamil",
+        "Liyaqat",
+        "Ubaid",
       ];
 
-      function calculateNewBattingOrder(batsmanScores, currentOrder) {
-        // Step 1: Calculate Total Scores
+      function calculateNewBattingOrder(playerScores, currentOrder) {
+        // Calculate total scores
         let totalScores = {};
-        for (let player in batsmanScores) {
-          totalScores[player] = batsmanScores[player].reduce(
-            (a, b) => a + b,
-            0
-          );
+        for (let player in playerScores) {
+          totalScores[player] = playerScores[player].reduce((a, b) => a + b, 0);
         }
 
-        // Step 2: Extract Last 3 Players from the Current Order and Sort Them
-        let lastThree = currentOrder.slice(8, 11);
-        let lastThreeFrom11Sorted = lastThree.sort(
+        // Extract last 3 players from the current order and sort them
+        let lastThreeFromCurrentOrder = currentOrder
+          .slice(8, 11)
+          .sort((a, b) => totalScores[b] - totalScores[a]);
+
+        // Sort the first 8 players by their total scores
+        let firstEight = currentOrder
+          .slice(0, 8)
+          .sort((a, b) => totalScores[b] - totalScores[a]);
+
+        // Split the sorted first 8 players into the top 5 and the next 3
+        let topFive = firstEight.slice(0, 5);
+        let nextThree = firstEight.slice(5, 8);
+
+        // Concatenate the sorted last 3 from the current order with the top 5
+        let newFirstEight = topFive.concat(lastThreeFromCurrentOrder);
+
+        // Sort the new first 8 players again
+        let newFirstEightSorted = newFirstEight.sort(
           (a, b) => totalScores[b] - totalScores[a]
         );
 
-        // Step 3: Create the first 8 positions including the last three players
-        let firstEight = currentOrder.slice(0, 8);
-
-        let firstEightSorted = firstEight.sort(
-          (a, b) => totalScores[b] - totalScores[a]
-        );
-        let lastThreeFromSortedEight = firstEightSorted
-          .slice(5, 8)
-          .sort((a, b) => totalScores[b] - totalScores[a]);
-
-        let firstFive = firstEightSorted.slice(0, 5);
-
-        let newFirstEightSorted = firstFive
-          .concat(lastThreeFrom11Sorted)
-          .sort((a, b) => totalScores[b] - totalScores[a]);
-
-        let newOrder = newFirstEightSorted.concat(lastThreeFromSortedEight);
+        // Concatenate the sorted remaining 3 players with the new first 8
+        let newOrder = newFirstEightSorted.concat(nextThree);
 
         return newOrder;
       }
 
       function calculateNewOrder() {
-        let newOrder = calculateNewBattingOrder(batsmanScores, currentOrder);
-        displayOrder(currentOrder, "currentOrderList");
+        let newOrder = calculateNewBattingOrder(
+          playerScores,
+          currentBattingOrder
+        );
+        displayOrder(currentBattingOrder, "currentOrderList");
         displayOrder(newOrder, "newOrderList");
       }
 
@@ -90,9 +91,9 @@
         let orderList = document.getElementById(elementId);
         orderList.innerHTML = "";
         order.forEach((player) => {
-          let totalRuns = batsmanScores[player].reduce((a, b) => a + b, 0);
+          let totalRuns = playerScores[player].reduce((a, b) => a + b, 0);
           let li = document.createElement("li");
-          li.textContent = `${player} (Total Runs: ${totalRuns}) - Scores: ${batsmanScores[
+          li.textContent = `${player} (Total Runs: ${totalRuns}) - Scores: ${playerScores[
             player
           ].join(", ")}`;
           orderList.appendChild(li);
@@ -101,7 +102,7 @@
 
       // Display the initial current order on page load
       document.addEventListener("DOMContentLoaded", () => {
-        displayOrder(currentOrder, "currentOrderList");
+        displayOrder(currentBattingOrder, "currentOrderList");
       });
     </script>
   </body>
