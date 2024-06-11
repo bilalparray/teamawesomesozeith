@@ -384,3 +384,88 @@ const ShowketWicketArray = [1];
 // const UbiWicketArray = ["0"];
 // const LiyaqatWicketArray = ["2", "3", "2", "4", "3", "2", "1", "3"];
 // const ShowketWicketArray = ["1"];
+
+// code for battingoreder
+const batsmanScores = {
+  BilalLastFourArray: [21, 0],
+  OwaisLastFourArray: [12, 19],
+  SahilLastFourArray: [20, 8],
+  EhsaanLastFourArray: [0, 47],
+  ZahidLastFourArray: [53, 18],
+  SuhailLastFourArray: [27, 0],
+  IshtiyaqLastFourArray: [5, 1],
+  UbiLastFourArray: [10, 1],
+  MuzamilLastFourArray: [10, 15],
+  LiyaqatLastFourArray: [0, 11],
+  ShowketLastFourArray: [10, 5],
+};
+
+const currentOrder = [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "p10",
+  "p11",
+];
+
+function calculateNewBattingOrder(batsmanScores, currentOrder) {
+  // Step 1: Calculate Total Scores
+  let totalScores = {};
+  for (let player in batsmanScores) {
+    totalScores[player] = batsmanScores[player].reduce((a, b) => a + b, 0);
+  }
+
+  // Step 2: Sort Players by Total Scores
+  let sortedPlayers = Object.entries(totalScores).sort((a, b) => b[1] - a[1]);
+
+  // Step 3: Extract Last 3 from the Original Order and Sort Them
+  let p9_p10_p11 = currentOrder.slice(8, 11);
+  p9_p10_p11.sort((a, b) => totalScores[b] - totalScores[a]);
+
+  // Step 4: Construct the New Order
+  let top8 = sortedPlayers.slice(0, 8).map((player) => player[0]);
+  let remainingPlayers = sortedPlayers.slice(8).map((player) => player[0]);
+  let newOrder = top8.concat(remainingPlayers);
+
+  // Step 5: Insert Last 3 into the First 8
+  p9_p10_p11.forEach((player) => {
+    let index = newOrder.indexOf(player);
+    if (index > 7) {
+      newOrder.splice(index, 1);
+      newOrder.splice(7, 0, player);
+    }
+  });
+
+  return newOrder;
+}
+
+function calculateNewOrder() {
+  let newOrder = calculateNewBattingOrder(batsmanScores, currentOrder);
+  displayOrder(currentOrder, "currentOrderList");
+  displayOrder(newOrder, "newOrderList");
+  console.log(newOrder);
+}
+
+function displayOrder(order, elementId) {
+  let orderList = document.getElementById(elementId);
+  orderList.innerHTML = "";
+  order.forEach((player) => {
+    let totalRuns = batsmanScores[player].reduce((a, b) => a + b, 0);
+    let li = document.createElement("li");
+    li.textContent = `${player} (Total Runs: ${totalRuns}) - Scores: ${batsmanScores[
+      player
+    ].join(", ")}`;
+    orderList.appendChild(li);
+  });
+}
+
+// Display the initial current order on page load
+document.addEventListener("DOMContentLoaded", () => {
+  displayOrder(currentOrder, "currentOrderList");
+});

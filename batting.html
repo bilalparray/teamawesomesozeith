@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Batting Order Calculator</title>
+    <script src="array.js"></script>
+  </head>
+  <body>
+    <h1>Batting Order Calculator</h1>
+
+    <h2>Current Batting Order:</h2>
+    <ol id="currentOrderList"></ol>
+
+    <button onclick="calculateNewOrder()">Calculate New Order</button>
+
+    <h2>New Batting Order:</h2>
+    <ol id="newOrderList"></ol>
+
+    <script>
+      const batsmanScores = {
+        BilalLastFourArray: [21, 0],
+        OwaisLastFourArray: [12, 19],
+        SahilLastFourArray: [20, 8],
+        EhsaanLastFourArray: [0, 47],
+        ZahidLastFourArray: [53, 18],
+        SuhailLastFourArray: [27, 0],
+        IshtiyaqLastFourArray: [5, 1],
+        UbiLastFourArray: [10, 1],
+        MuzamilLastFourArray: [10, 15],
+        LiyaqatLastFourArray: [0, 11],
+        ShowketLastFourArray: [10, 5],
+      };
+
+      const currentOrder = [
+        "SahilLastFourArray",
+        "IshtiyaqLastFourArray",
+        "OwaisLastFourArray",
+        "SuhailLastFourArray",
+        "BilalLastFourArray",
+        "ZahidLastFourArray",
+        "EhsaanLastFourArray",
+        "ShowketLastFourArray",
+        "MuzamilLastFourArray",
+        "LiyaqatLastFourArray",
+        "UbiLastFourArray",
+      ];
+
+      function calculateNewBattingOrder(batsmanScores, currentOrder) {
+        // Step 1: Calculate Total Scores
+        let totalScores = {};
+        for (let player in batsmanScores) {
+          totalScores[player] = batsmanScores[player].reduce(
+            (a, b) => a + b,
+            0
+          );
+        }
+
+        // Step 2: Sort Last 3 Players (9th, 10th, 11th) from the Current Order by Their Total Scores
+        let lastThree = currentOrder
+          .slice(8, 11)
+          .sort((a, b) => totalScores[b] - totalScores[a]);
+
+        // Step 3: Sort All Players by Their Total Scores
+        let sortedPlayers = currentOrder
+          .slice()
+          .sort((a, b) => totalScores[b] - totalScores[a]);
+
+        // Step 4: Replace Top 8 Players with the Sorted Last 3 Players
+        let newOrder = sortedPlayers.slice(0, 8);
+        lastThree.forEach((player) => {
+          if (!newOrder.includes(player)) {
+            newOrder.push(player);
+          }
+        });
+
+        // Step 5: Fill Remaining Spots in New Order with Remaining Sorted Players
+        sortedPlayers.forEach((player) => {
+          if (!newOrder.includes(player)) {
+            newOrder.push(player);
+          }
+        });
+
+        return newOrder;
+      }
+
+      function calculateNewOrder() {
+        let newOrder = calculateNewBattingOrder(batsmanScores, currentOrder);
+        displayOrder(currentOrder, "currentOrderList");
+        displayOrder(newOrder, "newOrderList");
+      }
+
+      function displayOrder(order, elementId) {
+        let orderList = document.getElementById(elementId);
+        orderList.innerHTML = "";
+        order.forEach((player) => {
+          let totalRuns = batsmanScores[player].reduce((a, b) => a + b, 0);
+          let li = document.createElement("li");
+          li.textContent = `${player} (Total Runs: ${totalRuns}) - Scores: ${batsmanScores[
+            player
+          ].join(", ")}`;
+          orderList.appendChild(li);
+        });
+      }
+
+      // Display the initial current order on page load
+      document.addEventListener("DOMContentLoaded", () => {
+        displayOrder(currentOrder, "currentOrderList");
+      });
+    </script>
+  </body>
+</html>
