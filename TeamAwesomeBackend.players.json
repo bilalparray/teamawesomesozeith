@@ -18,7 +18,7 @@
     "scores": {
       "balls": ["195"],
       "wickets": ["0"],
-      "lastfour": ["6"],
+      "lastfour": ["10", "1"],
       "innings": [
         "17",
         "10",
@@ -688,7 +688,7 @@
       ],
       "balls": ["236"],
       "wickets": ["35"],
-      "lastfour": ["0"],
+      "lastfour": ["12", "19"],
       "innings": [
         "14",
         "42",
@@ -1334,7 +1334,7 @@
       ],
       "balls": ["273"],
       "wickets": ["27"],
-      "lastfour": ["0"],
+      "lastfour": ["10", "15"],
       "innings": [
         "0",
         "40",
@@ -1695,7 +1695,7 @@
       ],
       "balls": ["79"],
       "wickets": ["1"],
-      "lastfour": ["0"],
+      "lastfour": ["10", "5"],
       "innings": [
         "17",
         "6",
@@ -2020,7 +2020,7 @@
       ],
       "balls": ["317"],
       "wickets": ["14"],
-      "lastfour": ["0"],
+      "lastfour": ["27", "0"],
       "innings": [
         "25",
         "13",
@@ -2345,7 +2345,7 @@
       ],
       "balls": ["322"],
       "wickets": ["2"],
-      "lastfour": ["0"],
+      "lastfour": ["20", "8"],
       "innings": [
         "4",
         "10",
@@ -2668,7 +2668,7 @@
       ],
       "balls": ["181"],
       "wickets": ["26"],
-      "lastfour": ["0"],
+      "lastfour": ["5", "1"],
       "innings": [
         "2",
         "10",
@@ -2969,7 +2969,7 @@
       ],
       "balls": ["163"],
       "wickets": ["22"],
-      "lastfour": ["0"],
+      "lastfour": ["0", "11"],
       "innings": [
         "0",
         "5",
@@ -3246,7 +3246,7 @@
       ],
       "balls": ["252"],
       "wickets": ["16"],
-      "lastfour": ["0"],
+      "lastfour": ["53", "18"],
       "innings": [
         "43",
         "59",
