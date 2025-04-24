@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.boilerplate.reno",
+            "sha256_cert_fingerprints": [
+                "A7:A5:3A:30:81:83:77:96:96:BF:B8:8E:3E:92:BD:4C:D4:01:82:88:5E:73:01:96:CC:8E:BF:20:2F:60:11:D6"
+            ]
+        }
+    }
+]
